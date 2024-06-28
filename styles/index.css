@@ -1,0 +1,432 @@
+/************************************************ LOGO E NAV *************************************************/
+
+/******************** LOGO E SCROLL ******************/
+
+.logo{
+    width: 90px;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 15px;
+}
+
+/******************** NAV ******************/
+
+nav{
+    background: #000 !important;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 1.4em;
+}
+
+ul.navbar-nav li.nav-item a.nav-link{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.dropdown-item{
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    transition: .2s !important;
+}
+
+.nav-link:hover{
+    color: #dadada !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+
+/************************************************ SECTION *************************************************/
+
+.sct-1{
+    padding: 30px;
+    background: url(../backgrounds/eu02.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.st-one h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700 !important;
+}
+
+.st-one p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500 !important;
+    text-align: justify;
+}
+
+.caixa{
+    margin-top: 200px !important;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.caixa-2{
+    margin-top: 20px !important;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.caixa .nav-link{
+    text-decoration: none !important;
+    padding: 10px !important;
+    border: 2px solid #000 !important;
+    transition: .5s;
+    background-color: white !important;
+    text-transform: uppercase;
+    color: #000 !important;
+    border-radius: 10px;
+    font-weight: 700 !important;
+    transition: .3s;
+}
+
+.caixa-2 .nav-link{
+    text-decoration: none !important;
+    padding: 10px !important;
+    border: 2px solid #000 !important;
+    transition: .5s;
+    background-color: white !important;
+    text-transform: uppercase;
+    color: #000 !important;
+    border-radius: 10px;
+    font-weight: 700 !important;
+    transition: .3s;
+}
+
+.caixa-2 .nav-link:hover{
+    background-color: #000 !important;
+    color: white !important;
+}
+
+.caixa .nav-link:hover{
+    background-color: #000 !important;
+    color: white !important;
+}
+
+.btn-link-2{
+    text-decoration: none !important;
+    padding: 10px !important;
+    border: 2px solid white !important;
+    transition: .5s;
+    background-color: #000 !important;
+    text-transform: uppercase;
+    color: white !important;
+    border-radius: 10px;
+    font-weight: 700 !important;
+    transition: .3s;
+}
+
+.btn-link:hover{
+    color: #141414 !important;
+}
+
+/************************************************ SECTION 2 *************************************************/
+
+.sct-2{
+    background-color: #000;
+    color: white;
+    padding: 30px;
+}
+
+.sct-2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sct-2 p{
+    text-align: justify;
+    font-size: 1.2em !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centro-all{
+    text-align: center;
+}
+
+.h2-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.card-project{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.card-project{
+    border: 5px solid rgb(30, 30, 30);
+    border-radius: 15px;
+}
+
+.card-project h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.align{
+    text-align: justify;
+}
+
+.conteudo{
+    padding: 10px;
+    background-color: #111111;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.radius{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btn-lead-more{
+    text-decoration: none;
+    font-size: 1.2em !important;
+    color: white !important;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.btn-lead-more:hover{
+    background-color: white;
+    color: #000 !important;
+}
+
+.card-project{
+    height: 100%;
+    background-color: #111111;
+}
+
+.ver-mais{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 5px solid white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 80px;
+    font-weight: 800 !important;
+    transition: .4s;
+}
+
+.ver-mais:hover{
+    background-color: white;
+    color: #000;
+}
+
+/************************************************ SECTION 3 *************************************************/
+
+.sct-3{
+    background-color: #050505;
+    padding: 30px;
+    color: white;
+}
+
+.sct-3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left; 
+}
+
+.sct-3 p{
+    text-align: justify;
+    font-size: 1.2em !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sct-3 h2.h2-title{
+    text-align: center;
+}
+
+.rd{
+    border-radius: 10px;
+    border: 6px solid #141414;
+}
+
+/************************************************ SECTION 4 *************************************************/
+
+.sct-4{
+    padding: 30px;
+    background: url(../backgrounds/cyber-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cyber-i{
+    width: 450px;
+    position: relative;
+    animation: rightToLeft 3s infinite alternate;
+}
+
+@keyframes rightToLeft {
+    0%{
+        right: 0;
+    }
+    100%{
+        right: 50px;
+    }
+}
+
+/************************************************ FOOTER *************************************************/
+
+footer{
+    padding: 30px;
+    background-color: #000;
+    color: white;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    letter-spacing: 1px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+footer h6{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/************************************************ MEDIA *************************************************/
+
+/* Extra Small divices */
+@media(max-width: 575.98px){
+    .md-sm-none{
+        display: none;
+    }
+    .sct-1{
+        background: url(../backgrounds/bg-cell.png);
+    }
+    .sm-none{
+        display: none;
+    }
+    .p-sm-4{
+        padding-bottom: 30px;
+        text-align: center !important;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+    .md-sm-none{
+        display: none;
+    }
+    .sct-1{
+        background: url(../backgrounds/bg-cell.png);
+    }
+    .sm-none{
+        display: none;
+    }
+    .p-sm-4{
+        padding-bottom: 30px;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+    .sct-1{
+        background: url(../backgrounds/bg-tablet01.png);
+    }
+    .caixa{
+        margin-top: 130px !important;
+    }
+    .caixa-2{
+        margin-top: 130px !important;
+    }
+    .md-sm-none{
+        display: none;
+    }
+    .margin-negativa{
+        margin-top: -50px;
+        width: 400px;
+    }
+    .center{
+        text-align: center;
+    }
+    .centro-md{
+        display: none;
+    }
+    .none{
+        display: none;
+    }
+    .center-md{
+        text-align: center;
+    }
+    .center-md p{
+        text-align: justify;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .margin-negativa{
+        margin-top: -100px;
+        width: 500px;
+    }
+    .lg-hidden{
+        display: none;
+    }
+    .none{
+        display: none;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+    .sct-1{
+        height: 100vh;
+    }
+    .lg-hidden{
+        visibility: hidden;
+    }
+    .margin-negativa{
+        margin-top: -100px;
+        width: 500px;
+    }
+    .center{
+        text-align: center;
+    }
+    .none{
+        display: none;
+    }
+    .lg-hidden{
+        display: none;
+    }
+}

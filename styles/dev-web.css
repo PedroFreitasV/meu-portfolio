@@ -1,0 +1,334 @@
+/************************************************ LOGO E NAV *************************************************/
+
+/******************** LOGO E SCROLL ******************/
+
+.logo{
+    width: 90px;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 15px;
+}
+
+/******************** NAV ******************/
+
+nav{
+    background: #000 !important;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 1.4em;
+}
+
+ul.navbar-nav li.nav-item a.nav-link{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.dropdown-item{
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    transition: .2s !important;
+}
+
+.nav-link:hover{
+    color: #dadada !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+
+/************************************************ SEÇÃO 1 *************************************************/
+
+.sct-1{
+    padding: 30px;
+    display: block;
+}
+
+.skills{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 4px solid #000;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.head-skills{
+    padding: 15px;
+    background-color: #000;
+    width: 100% !important;
+    text-align: center;
+    color: white;
+}
+
+.head-skills h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.body-skills{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.skills-img{
+    width: 80px;
+}
+
+/************************************************ SEÇÃO 2 *************************************************/
+
+.sct-2{
+    padding: 30px;
+}
+
+.caixa{
+    padding: 0px;
+    border: 5px solid #000;
+    border-radius: 8px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center h2{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+}
+
+.radius{
+    border-radius: 3px 3px 0px 0px;
+}
+
+.body-box{
+    padding: 10px;
+}
+
+.fly-doha{
+    background-color: rgb(142, 4, 4);
+    color: gold;
+    border-color: gold;
+}
+
+.body-box h2{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+.body-box h4{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imgs{
+    border-bottom: 2px solid;
+}
+
+.details{
+    text-align: center;
+}
+
+.fly-doha a{
+    color: gold;
+    transition: .5s;
+}
+
+.fly-doha a:hover{
+    color: rgb(142, 4, 4);
+    background-color: gold;
+}
+
+.link-details{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.malasia{
+    background-color: #000;
+    color: white;
+}
+
+.malasia a{
+    color: white;
+    border-color: white;
+    transition: .5s;
+}
+
+.malasia a:hover{
+    background-color: white;
+    color: #000;
+}
+
+.finans{
+    background-color: #ffc107;
+    color: white;
+}
+
+.finans a{
+    color: white;
+    border-color: white;
+    transition: .5s;
+}
+
+.finans a:hover{
+    color: #ffc107;
+    background-color: white;
+}
+
+.spotify{
+    background-color: rgb(57, 0, 57);
+    color: white;
+}
+
+.spotify a{
+    color: white;
+    border-color: white;
+    transition: .5s;
+}
+
+.spotify a:hover{
+    background-color: white;
+    color: rgb(57, 0, 57);
+}
+
+.box-crud{
+    padding: 0;
+    border: 5px solid #000;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+.crud-img{
+    border-radius: 3px 3px 0px 0px;
+}
+
+.crud-body{
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.border-bottom{
+    border-bottom: 2px solid white !important;
+}
+
+.crud-body h4, h3{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.crud-body a{
+    border-color: white;
+    color: white;
+    transition: .5s;
+}
+
+.crud-body a:hover{
+    background-color: white;
+    color: #000;
+}
+
+/************************************************ FOOTER *************************************************/
+
+footer{
+    padding: 30px;
+    background-color: #000;
+    color: white;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    letter-spacing: 1px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+footer h6{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.centro-all{
+    text-align: center;
+}
+
+/************************************************ MEDIA *************************************************/
+
+/* Extra Small divices */
+@media(max-width: 575.98px){
+    .p-sm-4{
+        padding-bottom: 30px;
+        text-align: center !important;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+    .p-sm-4{
+        padding-bottom: 30px;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+    .caixa{
+        height: 100% !important;
+    }
+    .sct-2 .skills-img{
+        width: 70px;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .caixa{
+        height: 100% !important;
+    }
+    .box-crud{
+        height: 100%;
+    }
+    .sct-2 .skills-img{
+        width: 50px !important;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+    .sct-2 .skills-img{
+        width: 50px !important;
+    }
+    .caixa{
+        height: 100% !important;
+    }
+    .box-crud{
+        height: 100%;
+    }
+}

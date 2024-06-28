@@ -1,0 +1,210 @@
+/************************************************ LOGO E NAV *************************************************/
+
+/******************** LOGO E SCROLL ******************/
+
+.logo{
+    width: 90px;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 15px;
+}
+
+/******************** NAV ******************/
+
+nav{
+    background: #000 !important;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 1.4em;
+}
+
+ul.navbar-nav li.nav-item a.nav-link{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.dropdown-item{
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    transition: .2s !important;
+}
+
+.nav-link:hover{
+    color: #dadada !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+
+/************************************************ SEÇÃO 1 *************************************************/
+
+.sct-1{
+    padding-top: 170px !important;
+    padding: 30px;
+    background-color: #000;
+    color: white;
+}
+
+.sct-1 h2{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+p.intro{
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.ia-image{
+    width: 300px;
+}
+
+.centro{
+    text-align: center;
+}
+
+/************************************************ SEÇÃO 2 *************************************************/
+
+.sct-2{
+    padding: 30px;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.sct-2 h3{
+    font-family: "Handlee", cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+.sct-2 img{
+    width: 350px;
+}
+
+/************************************************ SEÇÃO 3 *************************************************/
+
+.sct-3{
+    padding: 30px;
+    background-color: white;
+}
+
+.sct-3 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hobbies{
+    border-radius: 300px;
+    border: 7px solid #000;
+}
+
+.sct-3 p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/************************************************ FOOTER *************************************************/
+
+footer{
+    padding: 30px;
+    background-color: #000;
+    color: white;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    letter-spacing: 1px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+footer h6{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.centro-all{
+    text-align: center;
+}
+
+/************************************************ MEDIA *************************************************/
+
+/* Extra Small divices */
+@media(max-width: 575.98px){
+    .sct-2{
+        text-align: center;
+    }
+    .justify{
+        text-align: justify;
+    }
+    .p-sm-4{
+        padding-bottom: 30px;
+        text-align: center !important;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+    .sct-2{
+        text-align: center;
+    }
+    .p-sm-4{
+        padding-bottom: 30px;
+        text-align: center !important;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+    .ia-image{
+        width: 300px;
+        margin-top: -70px !important;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .ia-image{
+        width: 300px;
+        margin-top: -70px !important;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+    .ia-image{
+        width: 300px;
+        margin-top: -70px !important;
+    }
+}
